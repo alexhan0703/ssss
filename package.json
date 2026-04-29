@@ -1,0 +1,15 @@
+{
+  "name": "sci-glossary",
+  "version": "1.0.0",
+  "description": "Science Terminology Dictionary",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd frontend && npm install && npm run build && cd ../backend && npm install",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  }
+}
