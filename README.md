@@ -1,4 +1,4 @@
-# SciGlossary (과학용어 사전)
+# science dictionary (과학용어 사전)
 
 복잡한 과학 용어를 쉽고 명확하게 설명해주는 웹 애플리케이션입니다.
 
